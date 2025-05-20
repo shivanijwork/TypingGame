@@ -19,4 +19,5 @@ CSS3 – For styling the user interface
 
 JavaScript (Vanilla) – For logic, interactivity, and DOM manipulation
 
-📸 Screenshot
+# 📸 Screenshot 
+![Typing_Game Preview](./screenshot.png)
