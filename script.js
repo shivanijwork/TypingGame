@@ -17,7 +17,7 @@ const quoteElement=document.getElementById('quote');
 const messageElement=document.getElementById('message');
 const typedValueElement=document.getElementById('typed-value');
 
-document.getElementById('start').addEventListener(click , function()
+document.getElementById('start').addEventListener('click' , function()
     {
         //first task is to get a quote
         //random index
@@ -30,7 +30,7 @@ document.getElementById('start').addEventListener(click , function()
 
         const spanWords=words.map(function(word)
         {
-            return '<span>$(word) </span>';
+            return `<span>${word} </span>`;
         });
         quoteElement.innerHTML = spanWords.join('');
         //higlighting
